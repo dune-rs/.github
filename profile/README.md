@@ -1,7 +1,7 @@
 # Welcome to the Rust Dune Project 👋
 
 🚀 **Reimagining the Stanford Dune Project in Rust**  
-Our project aims to rewrite the [Stanford Dune Project](https://dune.scs.stanford.edu/) using the Rust programming language. By reimplementing Dune, we enable host processes to execute in the Ring-0 privilege level of virtual machines with enhanced safety and performance guarantees provided by Rust.
+Our project aims to rewrite the [Stanford Dune Project](https://dune.scs.stanford.edu/) using the Rust programming language. By reimplementing Dune framework for Intel VT-x and AMD SEV-SNP platforms, we enable both guest and host processes to execute in the Ring-0 privilege level of virtual machines with enhanced safety and performance guarantees provided by Rust. Meanwhile, the untrusted processes can be scheduled to the user-space of a lower VMPL under AMD SEV-SNP platform.
 
 ## 🏗️ What We're Building
 
